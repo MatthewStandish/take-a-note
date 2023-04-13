@@ -29,3 +29,17 @@ app.post("/api/notes", (req, res) => {
   fs.writeFileSync(path.join(__dirname, "db", "db.json"), JSON.stringify(data));
   res.json(data);
 });
+
+app.delete("/api/notes/:id", (req, res) => {
+  const data = JSON.parse(
+    fs.readFileSync(path.join(__dirname, "db", "db.json"))
+  );
+  const filteredData = data.filter((note) => note.id !== req.params.id);
+  fs.writeFileSync(
+    path.join(__dirname, "db", "db.json"),
+    JSON.stringify(filteredData)
+  );
+  res.json(filteredData);
+});
+
+app.use(express.static(path.join(__dirname, "public")));
