@@ -1,23 +1,23 @@
 {
   "name": "take-a-note",
   "version": "1.0.0",
-  "description": "This is a note taking site.",
+  "description": "This is a note-taking site.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "take-a-note"
+  },
   "keywords": [
-    "heroku"
+    "Heroku"
   ],
   "author": "Matthew Standish",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "fs": "^0.0.1-security",
     "uniqid": "^5.4.0"
-  },
-  "engines": {
-    "node": "18.14.2"
   }
 }
