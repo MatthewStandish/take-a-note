@@ -19,5 +19,8 @@
     "express": "^4.16.4",
     "fs": "^0.0.1-security",
     "uniqid": "^5.4.0"
+  },
+  "engines": {
+    "node": "18.14.2"
   }
 }
