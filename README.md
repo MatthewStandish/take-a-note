@@ -4,7 +4,9 @@
 
 ## Description
 
-take-a-note is an application that allows you to create and save notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file.
+Note Taker is an application that allows you to create and save notes. This application uses an Express.js back end and saves and retrieves note data from a JSON file.
+
+Heroku app: [Note Taker](https://arcane-coast-89065.herokuapp.com/)
 
 ## Table of Contents
 
@@ -38,6 +40,8 @@ npm start
 ## Usage
 
 Visit the deployed site and click "Get Started". You can view saved notes on the left and create new notes on the right. To save a new note, enter a title and text, and click the save icon. To view a saved note, click on its title. To delete a note, click the trash can icon.
+
+![site image](./develop/public/assets/images/site.png)
 
 ## License
 
